@@ -1,0 +1,14 @@
+// fontawesome
+@import './../node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
+// vom vedea ghiduri care folosesc ~
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+// bootstrap
+@import './../node_modules/bootstrap/scss/bootstrap-reboot.scss';
+@import './../node_modules/bootstrap/scss/bootstrap-grid.scss';
+@import './../node_modules/bootstrap/scss/bootstrap-utilities.scss';
+
+body {
+  background-color: lightseagreen;
+}

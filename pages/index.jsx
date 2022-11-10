@@ -1,15 +1,23 @@
+import Footer from '../components/common/footer/Footer';
 import Header from '../components/common/header/Header';
+import HomePayment from '../components/homepage/HomePayment';
 
 export default function Home() {
   return (
     <div>
-      <header className="header container mt-5">
+      <header className="header container mt-lg-5">
         <Header></Header>
       </header>
 
-      <main className="content"></main>
+      <main className="content">
+        <div className="content-main container">
+          <HomePayment></HomePayment>
+        </div>
+      </main>
 
-      <footer className="footer"></footer>
+      <footer className="footer">
+        <Footer></Footer>
+      </footer>
     </div>
   );
 }

@@ -49,9 +49,46 @@
 
   .footer-contact {
     grid-area: contact;
+
+    &-title {
+      font-size: 16px;
+      line-height: 18px;
+      font-weight: 300;
+      text-transform: uppercase;
+
+      span {
+        font-weight: 500;
+      }
+    }
+
+    &-mail {
+      color: $brand-primary;
+    }
   }
 
   .footer-support {
     grid-area: support;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+
+    @include media-breakpoint-up(lg) {
+      text-align: start;
+    }
+
+    li {
+      display: inline-block;
+      margin-right: 35px;
+
+      i {
+        display: block;
+        text-align: center;
+        font-size: 35px;
+        color: $brand-primary;
+        margin-bottom: 10px;
+      }
+    }
   }
 }

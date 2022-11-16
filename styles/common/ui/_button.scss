@@ -2,9 +2,9 @@
   background-color: $brand-primary;
   text-transform: uppercase;
   color: $white;
-  padding: 16px 36px;
+  padding: 12px 36px;
   display: inline-block;
-  border: 3px solid $brand-primary;
+  border: 1px solid $brand-primary;
   border-radius: 30px;
   cursor: pointer;
   transition: color 0.2s linear, background-color 0.2s linear;
@@ -15,7 +15,7 @@
   }
 
   &-large {
-    padding: 32px 72px;
+    padding: 28px 72px;
     border-radius: 64px;
     font-size: 24px;
   }

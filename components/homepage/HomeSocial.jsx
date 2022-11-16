@@ -6,36 +6,60 @@ export default function HomeSocial() {
           <span>We are</span> Social
         </h1>
       </header>
-
       <ul>
         <li>
-          <div className="circle">
+          <a
+            href="https://www.facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Follow us on Facebook"
+          >
             <i class="fa-brands fa-facebook-f"></i>
-          </div>
+          </a>
         </li>
 
         <li>
-          <div className="circle">
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Follow us on Instagram"
+          >
             <i class="fa-brands fa-instagram"></i>
-          </div>
+          </a>
         </li>
 
         <li>
-          <div className="circle">
+          <a
+            href="https://www.linkedin.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Follow us on Linkedin"
+          >
             <i class="fa-brands fa-linkedin-in"></i>
-          </div>
+          </a>
         </li>
 
         <li>
-          <div className="circle">
+          <a
+            href="https://www.pinterest.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Follow us on Pinterest"
+          >
             <i class="fa-brands fa-pinterest-p"></i>
-          </div>
+          </a>
         </li>
 
         <li>
-          <div className="circle">
+          <a
+            href="https://www.twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Follow us on Twitter"
+          >
             <i class="fa-brands fa-twitter"></i>
-          </div>
+          </a>
         </li>
       </ul>
     </section>

@@ -1,3 +1,8 @@
+@import './home-payment';
+@import './home-newsletter';
+@import './home-catalog-preview';
+@import './home-social';
+
 .content-main {
   display: flex;
   flex-direction: column;
@@ -6,6 +11,7 @@
   & > section {
     & > header {
       text-align: center;
+      margin-bottom: 40px;
 
       h1 {
         text-transform: uppercase;

@@ -1,0 +1,23 @@
+.home-social {
+  ul {
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    font-size: 30px;
+
+    @include media-breakpoint-up(lg) {
+      gap: 20px;
+    }
+
+    .circle {
+      content: '';
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 64px;
+      height: 64px;
+      border: 3px solid $gray-primary;
+      border-radius: 50%;
+    }
+  }
+}

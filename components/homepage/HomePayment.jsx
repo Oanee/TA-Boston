@@ -1,6 +1,6 @@
 export default function HomePayment() {
   return (
-    <section>
+    <section className="home-payment container">
       <header>
         <h1>
           <span>How to</span> Pay

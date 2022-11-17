@@ -38,4 +38,30 @@
       }
     }
   }
+
+  //v2 layout flex
+  &:nth-child(2) {
+    .product-tiles {
+      @include media-breakpoint-up(lg) {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        & > li {
+          width: 27.386541%; // 350 / 1278
+        }
+      }
+    }
+  }
+
+  //v3 layout grid
+  &:nth-child(3) {
+    .product-tiles {
+      @include media-breakpoint-up(lg) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 8.8419405%; // 113 / 1278;
+      }
+    }
+  }
 }

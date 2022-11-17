@@ -202,7 +202,7 @@ export default function FooterPrimary() {
 
           <li>
             <a href="mailto: office@traidaffairs.com" title="Chat">
-              <i class="fa-solid fa-envelope"></i>
+              <i className="fa-solid fa-envelope"></i>
               Email
             </a>
           </li>

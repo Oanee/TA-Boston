@@ -21,9 +21,11 @@ export default function HomeCatalogPreview() {
         <li>
           <ProductTile></ProductTile>
         </li>
+
         <li>
           <ProductTile></ProductTile>
         </li>
+
         <li>
           <ProductTile></ProductTile>
         </li>
